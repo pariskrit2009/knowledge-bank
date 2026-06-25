@@ -1,4 +1,4 @@
-# 📚 Team TIL — Today I Learned
+# 📚 Knowledge Bank
 
 A running log of small, useful things our frontend & WordPress team picks up each week.
 Born from our weekly knowledge-sharing sessions. One share, every week — captured here so it never gets lost.
@@ -12,7 +12,7 @@ Born from our weekly knowledge-sharing sessions. One share, every week — captu
 - **Search the whole repo:** press <kbd>t</kbd> on GitHub, or use the search bar at the top.
 - **Ctrl/Cmd + F** on this page to find a keyword or a tag like `#wordpress`.
 - **Browse by category** using the index below.
-- Every entry is tagged. Tags are written as `#lowercase` so they're easy to search. Stick to the [approved tag list](#-tags) to keep search reliable.
+- Every entry is tagged. Tags are written as `#lowercase` so they're easy to search. Stick to the [approved tag list](#tags) to keep search reliable.
 
 ---
 
@@ -50,19 +50,21 @@ One or two sentences: what it is and why it's useful.
 
 | Category | Count | Jump to |
 |---|---|---|
-| 🎨 CSS | 1 | [#css](#-css) |
-| 🟦 JavaScript | 1 | [#javascript](#-javascript) |
-| 🌐 WordPress | 1 | [#wordpress](#-wordpress) |
-| ⚡ Performance | 0 | [#performance](#-performance) |
-| 🛠️ Tooling & Editor | 1 | [#tooling--editor](#️-tooling--editor) |
-| 🐛 Bug Fixes & Gotchas | 0 | [#bug-fixes--gotchas](#-bug-fixes--gotchas) |
-| 🔀 Git & Workflow | 0 | [#git--workflow](#-git--workflow) |
-| ♿ Accessibility | 0 | [#accessibility](#-accessibility) |
+| 🎨 CSS | 1 | [css](#css) |
+| 🟦 JavaScript | 1 | [javascript](#javascript) |
+| ⚛️ React | 1 | [react](#react) |
+| 🌐 WordPress | 1 | [wordpress](#wordpress) |
+| ⚡ Performance | 0 | [performance](#performance) |
+| 🛠️ Tooling & Editor | 1 | [tooling](#tooling) |
+| 🐛 Bug Fixes & Gotchas | 0 | [bug-fixes](#bug-fixes) |
+| 🔀 Git & Workflow | 0 | [git-workflow](#git-workflow) |
+| ♿ Accessibility | 0 | [accessibility](#accessibility) |
 
 > Update the count when you add an entry — it's a quick health check on which areas we're learning in.
 
 ---
 
+<a id="tags"></a>
 ## 🏷️ Tags
 
 Use these consistent tags so search and filtering stay reliable. Add a new one only when nothing fits, and add it to this list when you do.
@@ -71,27 +73,21 @@ Use these consistent tags so search and filtering stay reliable. Add a new one o
 
 ---
 
+<a id="css"></a>
 ## 🎨 CSS
 
-### `:where()` keeps specificity flat
+<!-- Add entries here, newest first -->
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#css` `#layout`
-
-Wrapping selectors in `:where()` gives them **zero specificity**, so base styles inside it are trivially easy to override later. Great for resets and component defaults.
-
-```css
-:where(.card) h2 { margin-top: 0; } /* easy to override anywhere */
-```
-
-🔗 [MDN: :where()](https://developer.mozilla.org/en-US/docs/Web/CSS/:where)
+_No entries yet — be the first to add one._
 
 ---
 
+<a id="javascript"></a>
 ## 🟦 JavaScript
 
 ### `structuredClone()` for deep copies
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#performance`
+**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#javascript`
 
 Built into modern browsers and Node — deep-clones objects without `JSON.parse(JSON.stringify(...))` hacks, and it handles Dates, Maps, and Sets correctly.
 
@@ -103,26 +99,25 @@ const copy = structuredClone(original);
 
 ---
 
-## 🌐 WordPress
+<a id="react"></a>
+## ⚛️ React
 
-### Conditionally dequeue scripts you don't need
+<!-- Add entries here, newest first -->
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#wordpress` `#performance` `#hooks`
-
-A plugin was loading its JS on every page. Dequeuing it everywhere except where it's used shaved real weight off the homepage.
-
-```php
-add_action( 'wp_enqueue_scripts', function () {
-    if ( ! is_page( 'contact' ) ) {
-        wp_dequeue_script( 'some-plugin-script' );
-    }
-}, 100 );
-```
-
-🔗 [WP docs: wp_dequeue_script()](https://developer.wordpress.org/reference/functions/wp_dequeue_script/)
+_No entries yet — be the first to add one._
 
 ---
 
+<a id="wordpress"></a>
+## 🌐 WordPress
+
+<!-- Add entries here, newest first -->
+
+_No entries yet — be the first to add one._
+
+---
+
+<a id="performance"></a>
 ## ⚡ Performance
 
 <!-- Add entries here, newest first -->
@@ -131,18 +126,16 @@ _No entries yet — be the first to add one._
 
 ---
 
+<a id="tooling"></a>
 ## 🛠️ Tooling & Editor
 
-### VS Code: edit all matches at once
+<!-- Add entries here, newest first -->
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#tooling` `#vscode`
-
-Select a word and press <kbd>Cmd/Ctrl + Shift + L</kbd> to put a cursor on **every** occurrence in the file at once. Faster than find-and-replace for quick renames.
-
-🔗 [VS Code: multiple cursors](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor)
+_No entries yet — be the first to add one._
 
 ---
 
+<a id="bug-fixes"></a>
 ## 🐛 Bug Fixes & Gotchas
 
 <!-- Add entries here, newest first -->
@@ -151,6 +144,7 @@ _No entries yet — be the first to add one._
 
 ---
 
+<a id="git-workflow"></a>
 ## 🔀 Git & Workflow
 
 <!-- Add entries here, newest first -->
@@ -159,6 +153,7 @@ _No entries yet — be the first to add one._
 
 ---
 
+<a id="accessibility"></a>
 ## ♿ Accessibility
 
 <!-- Add entries here, newest first -->
