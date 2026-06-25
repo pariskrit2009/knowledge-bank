@@ -12,7 +12,7 @@ Born from our weekly knowledge-sharing sessions. One share, every week — captu
 - **Search the whole repo:** press <kbd>t</kbd> on GitHub, or use the search bar at the top.
 - **Ctrl/Cmd + F** on this page to find a keyword or a tag like `#wordpress`.
 - **Browse by category** using the index below.
-- Every entry is tagged. Tags are written as `#lowercase-token` so they're easy to search. Stick to the [approved tag list](#-tags) to keep search reliable.
+- Every entry is tagged. Tags are written as `#lowercase` so they're easy to search. Stick to the [approved tag list](#-tags) to keep search reliable.
 
 ---
 
@@ -91,7 +91,7 @@ Wrapping selectors in `:where()` gives them **zero specificity**, so base styles
 
 ### `structuredClone()` for deep copies
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#javascript`
+**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#performance`
 
 Built into modern browsers and Node — deep-clones objects without `JSON.parse(JSON.stringify(...))` hacks, and it handles Dates, Maps, and Sets correctly.
 
