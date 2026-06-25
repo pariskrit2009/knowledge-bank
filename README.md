@@ -50,12 +50,12 @@ One or two sentences: what it is and why it's useful.
 
 | Category | Count | Jump to |
 |---|---|---|
-| 🎨 CSS | 1 | [css](#css) |
-| 🟦 JavaScript | 1 | [javascript](#javascript) |
+| 🎨 CSS | 0 | [css](#css) |
+| 🟦 JavaScript | 0 | [javascript](#javascript) |
 | ⚛️ React | 1 | [react](#react) |
-| 🌐 WordPress | 1 | [wordpress](#wordpress) |
+| 🌐 WordPress | 0 | [wordpress](#wordpress) |
 | ⚡ Performance | 0 | [performance](#performance) |
-| 🛠️ Tooling & Editor | 1 | [tooling](#tooling) |
+| 🛠️ Tooling & Editor | 0 | [tooling](#tooling) |
 | 🐛 Bug Fixes & Gotchas | 0 | [bug-fixes](#bug-fixes) |
 | 🔀 Git & Workflow | 0 | [git-workflow](#git-workflow) |
 | ♿ Accessibility | 0 | [accessibility](#accessibility) |
