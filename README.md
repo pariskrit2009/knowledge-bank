@@ -51,8 +51,8 @@ One or two sentences: what it is and why it's useful.
 | Category | Count | Jump to |
 |---|---|---|
 | 🎨 CSS | 0 | [css](#css) |
-| 🟦 JavaScript | 0 | [javascript](#javascript) |
-| ⚛️ React | 1 | [react](#react) |
+| 🟦 JavaScript | 1 | [javascript](#javascript) |
+| ⚛️ React | 0 | [react](#react) |
 | 🌐 WordPress | 0 | [wordpress](#wordpress) |
 | ⚡ Performance | 0 | [performance](#performance) |
 | 🛠️ Tooling & Editor | 0 | [tooling](#tooling) |
@@ -87,7 +87,7 @@ _No entries yet — be the first to add one._
 
 ### `structuredClone()` for deep copies
 
-**Date:** 2026-06-20 · **By:** @example-dev · **Tags:** `#javascript`
+**Date:** 2026-06-26 · **By:** Pariskrit Moktan · **Tags:** `#javascript`
 
 Built into modern browsers and Node — deep-clones objects without `JSON.parse(JSON.stringify(...))` hacks, and it handles Dates, Maps, and Sets correctly.
 
