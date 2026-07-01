@@ -77,6 +77,39 @@ Use these consistent tags so search and filtering stay reliable. Add a new one o
 ## 🎨 CSS
 
 <!-- Add entries here, newest first -->
+### <Pop-up and anchor-position>
+
+**Date:** 2026-07-01 · **By:** @Raj Kumar Maharjan **Tags:** `#html` `#css`
+
+A lightweight pop-up positioned relative to a sibling element, providing contextual content or actions. It's useful for quick interactions without disrupting the page layout or navigation.
+<!-- optional: a tiny code snippet -->
+
+\`\`\`html
+<button class="menu" popovertarget="item-list">menu</button>
+
+<div id="item-list" popover>
+  <ul>
+    <li>item-1</li>
+    <li>item-2</li>
+  </ul>
+</div>
+\`\`\`
+
+\`\`\`css
+.menu {
+ anchor-name: --my-button;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+#item-list {
+  position: absolute;
+  position-anchor: --my-button;
+  position-area: top span-left;
+}
+\`\`\`
+
+🔗 [Source / docs / PR](https://example.com)
 
 _No entries yet — be the first to add one._
 
