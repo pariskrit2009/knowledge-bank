@@ -50,7 +50,7 @@ One or two sentences: what it is and why it's useful.
 
 | Category | Count | Jump to |
 |---|---|---|
-| 🎨 CSS | 0 | [css](#css) |
+| 🎨 CSS | 1 | [css](#css) |
 | 🟦 JavaScript | 1 | [javascript](#javascript) |
 | ⚛️ React | 0 | [react](#react) |
 | 🌐 WordPress | 0 | [wordpress](#wordpress) |
@@ -77,14 +77,14 @@ Use these consistent tags so search and filtering stay reliable. Add a new one o
 ## 🎨 CSS
 
 <!-- Add entries here, newest first -->
-### <Pop-up and anchor-position>
+### Pop-up and anchor-position
 
 **Date:** 2026-07-01 · **By:** @Raj Kumar Maharjan **Tags:** `#html` `#css`
 
 A lightweight pop-up positioned relative to a sibling element, providing contextual content or actions. It's useful for quick interactions without disrupting the page layout or navigation.
 <!-- optional: a tiny code snippet -->
 
-\`\`\`html
+```html
 <button class="menu" popovertarget="item-list">menu</button>
 
 <div id="item-list" popover>
@@ -93,9 +93,9 @@ A lightweight pop-up positioned relative to a sibling element, providing context
     <li>item-2</li>
   </ul>
 </div>
-\`\`\`
+```
 
-\`\`\`css
+```css
 .menu {
  anchor-name: --my-button;
   margin-left: 200px;
@@ -107,7 +107,7 @@ A lightweight pop-up positioned relative to a sibling element, providing context
   position-anchor: --my-button;
   position-area: top span-left;
 }
-\`\`\`
+```
 
 🔗 [Source / docs / PR](https://example.com)
 
