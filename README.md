@@ -55,7 +55,7 @@ One or two sentences: what it is and why it's useful.
 | ⚛️ React | 0 | [react](#react) |
 | 🌐 WordPress | 0 | [wordpress](#wordpress) |
 | ⚡ Performance | 0 | [performance](#performance) |
-| 🛠️ Tooling & Editor | 0 | [tooling](#tooling) |
+| 🛠️ Tooling & Editor | 1 | [tooling](#tooling) |
 | 🐛 Bug Fixes & Gotchas | 0 | [bug-fixes](#bug-fixes) |
 | 🔀 Git & Workflow | 0 | [git-workflow](#git-workflow) |
 | ♿ Accessibility | 0 | [accessibility](#accessibility) |
@@ -162,9 +162,24 @@ _No entries yet — be the first to add one._
 <a id="tooling"></a>
 ## 🛠️ Tooling & Editor
 
-<!-- Add entries here, newest first -->
+**Date:** 2026-07-22 · **By:** @Abhinav Tuladhar **Tags:** `#vscode` `#tooling`
 
-_No entries yet — be the first to add one._
+VS Code (and its forks) have plenty of keyboard shortcuts which enable us to work at lightning-fast speeds with enough practice and muscle memory.
+
+**Shortcut references:**
+
+- [Windows shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [Linux shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+- [Mac shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Emmet Cheatsheet](https://docs.emmet.io/cheatsheet-a5.pdf)
+
+**Useful extensions:**
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Quokka](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
+- [JSON to TS](https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold)
 
 ---
 
