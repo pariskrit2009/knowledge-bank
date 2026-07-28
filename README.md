@@ -162,9 +162,11 @@ _No entries yet — be the first to add one._
 <a id="tooling"></a>
 ## 🛠️ Tooling & Editor
 
+### VS Code keyboard shortcuts and extensions
+
 **Date:** 2026-07-22 · **By:** @Abhinav Tuladhar **Tags:** `#vscode` `#tooling`
 
-VS Code (and its forks) have plenty of keyboard shortcuts which enable us to work at lightning-fast speeds with enough practice and muscle memory.
+VS Code (and its forks) has plenty of keyboard shortcuts which enable us to work at lightning-fast speeds with enough practice and muscle memory.
 
 **Shortcut references:**
 
