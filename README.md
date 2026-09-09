@@ -109,7 +109,58 @@ A lightweight pop-up positioned relative to a sibling element, providing context
 }
 ```
 
+
+<a id="sibling-index()"></a>
+## 🎨 CSS
+
+<!-- Add entries here, newest first -->
+### sibling-index() and silbing-count()
+
+**Date:** 2026-09-09 · **By:** @Raj Kumar Maharjan **Tags:** `#html` `#css`
+
+animating using only css
+<!-- optional: a tiny code snippet -->
+
+```html
+<div class="cards">
+  <div class="card">card</div>
+  <div class="card">card</div>
+  <div class="card">card</div>
+  <div class="card">card</div>
+  <div class="card">card</div>
+  <div class="card">card</div>
+</div>
+```
+
+```css
+.cards {
+  display: grid;
+grid-template-columns: repeat(auto-fill, minmax(min(390px, 100%), 1fr));
+gap: 1rem;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 12px;
+  display:grid;
+  place-items: center;
+  --progress: calc((sibling-index() - 1) / (sibling-count()));
+  background-color: oklch(calc(40% + var(--progress) * 40%) 0.2 270deg);
+  opacity:0;
+  animation: rise .3s both;
+  animation-delay: calc((sibling-index() - 1) * 0.3s);
+}
+
+@keyframes rise {
+  to {
+    opacity:1
+  }
+}
+```
+
 🔗 [Source / docs / PR](https://example.com)
+https://codepen.io/Raj-Kumar-Maharjan-the-scripter/pen/bNqeNep
+https://codepen.io/Raj-Kumar-Maharjan-the-scripter/pen/qErNEWy
 
 _No entries yet — be the first to add one._
 
